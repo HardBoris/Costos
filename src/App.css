@@ -1,11 +1,15 @@
-body, main, header, footer, div{
+body, main, header, footer, div, h1, h4{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 header{
   height: 12vh;
+  width: 100%;
   background-color: #A6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 main {
   height: 80vh;
@@ -15,5 +19,9 @@ main {
 }
 footer{
   height: 8vh;
+  width: 100vw;
   background-color: #BCC7C7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
